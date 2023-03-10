@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes/>
+      <pos x="420" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes/>
+      <pos x="500" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes/>
+      <pos x="580" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes/>
+      <pos x="660" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="480" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="720" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="640" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="580" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="420" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="480" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="620" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="640" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="660" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="720" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="740" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>IVERILOG</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>downcounter</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>rst,c1khz,count,load,pm10:4,pm1:4,ps10:4,ps1:4</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>6</int>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>m10:4,m1:4,s10:4,s1:4,zero</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>/*
+ * Generated by Digital. Don&apos;t modify this file!
+ * Any changes will be lost if this file is regenerated.
+ */
+
+module Mux_2x1_NBits #(
+    parameter Bits = 2
+)
+(
+    input [0:0] sel,
+    input [(Bits - 1):0] in_0,
+    input [(Bits - 1):0] in_1,
+    output reg [(Bits - 1):0] out
+);
+    always @ (*) begin
+        case (sel)
+            1&apos;h0: out = in_0;
+            1&apos;h1: out = in_1;
+            default:
+                out = &apos;h0;
+        endcase
+    end
+endmodule
+
+
+module DIG_D_FF_AS_1bit
+#(
+    parameter Default = 0
+)
+(
+   input Set,
+   input D,
+   input C,
+   input Clr,
+   output Q,
+   output \~Q
+);
+    reg state;
+
+    assign Q = state;
+    assign \~Q  = ~state;
+
+    always @ (posedge C or posedge Clr or posedge Set)
+    begin
+        if (Set)
+            state &lt;= 1&apos;b1;
+        else if (Clr)
+            state &lt;= &apos;h0;
+        else
+            state &lt;= D;
+    end
+
+    initial begin
+        state = Default;
+    end
+endmodule
+
+module Mux_4x1
+(
+    input [1:0] sel,
+    input in_0,
+    input in_1,
+    input in_2,
+    input in_3,
+    output reg out
+);
+    always @ (*) begin
+        case (sel)
+            2&apos;h0: out = in_0;
+            2&apos;h1: out = in_1;
+            2&apos;h2: out = in_2;
+            2&apos;h3: out = in_3;
+            default:
+                out = &apos;h0;
+        endcase
+    end
+endmodule
+
+
+module downcounter_new (
+  input EN,
+  input LOAD,
+  input [3:0] IN,
+  input CLK,
+  input RESET,
+  output [3:0] CNT,
+  output ZERO
+);
+  wire s0;
+  wire s1;
+  wire s2;
+  wire s3;
+  wire s4;
+  wire s5;
+  wire s6;
+  wire s7;
+  wire s8;
+  wire s9;
+  wire s10;
+  wire [1:0] s11;
+  wire s12;
+  wire s13;
+  wire s14;
+  wire [1:0] s15;
+  wire s16;
+  wire s17;
+  wire s18;
+  wire [1:0] s19;
+  wire s20;
+  wire s21;
+  wire s22;
+  wire [1:0] s23;
+  assign s11[0] = EN;
+  assign s11[1] = LOAD;
+  assign s8 = ~ RESET;
+  assign s0 = IN[0];
+  assign s1 = IN[1];
+  assign s2 = IN[2];
+  assign s3 = IN[3];
+  DIG_D_FF_AS_1bit #(
+    .Default(0)
+  )
+  DIG_D_FF_AS_1bit_i0 (
+    .Set( s8 ),
+    .D( s9 ),
+    .C( CLK ),
+    .Clr( 1&apos;b0 ),
+    .Q( s4 ),
+    .\~Q ( s10 )
+  );
+  Mux_4x1 Mux_4x1_i1 (
+    .sel( s11 ),
+    .in_0( s4 ),
+    .in_1( s10 ),
+    .in_2( s0 ),
+    .in_3( s0 ),
+    .out( s9 )
+  );
+  assign s12 = (s10 &amp; EN);
+  DIG_D_FF_AS_1bit #(
+    .Default(0)
+  )
+  DIG_D_FF_AS_1bit_i2 (
+    .Set( s8 ),
+    .D( s13 ),
+    .C( CLK ),
+    .Clr( 1&apos;b0 ),
+    .Q( s5 ),
+    .\~Q ( s14 )
+  );
+  Mux_4x1 Mux_4x1_i3 (
+    .sel( s15 ),
+    .in_0( s5 ),
+    .in_1( s14 ),
+    .in_2( s1 ),
+    .in_3( s1 ),
+    .out( s13 )
+  );
+  assign s15[0] = s12;
+  assign s15[1] = LOAD;
+  DIG_D_FF_AS_1bit #(
+    .Default(0)
+  )
+  DIG_D_FF_AS_1bit_i4 (
+    .Set( s8 ),
+    .D( s17 ),
+    .C( CLK ),
+    .Clr( 1&apos;b0 ),
+    .Q( s6 ),
+    .\~Q ( s18 )
+  );
+  Mux_4x1 Mux_4x1_i5 (
+    .sel( s19 ),
+    .in_0( s6 ),
+    .in_1( s18 ),
+    .in_2( s2 ),
+    .in_3( s2 ),
+    .out( s17 )
+  );
+  assign s19[0] = s16;
+  assign s19[1] = LOAD;
+  DIG_D_FF_AS_1bit #(
+    .Default(0)
+  )
+  DIG_D_FF_AS_1bit_i6 (
+    .Set( s8 ),
+    .D( s21 ),
+    .C( CLK ),
+    .Clr( 1&apos;b0 ),
+    .Q( s7 ),
+    .\~Q ( s22 )
+  );
+  Mux_4x1 Mux_4x1_i7 (
+    .sel( s23 ),
+    .in_0( s7 ),
+    .in_1( s22 ),
+    .in_2( s3 ),
+    .in_3( s3 ),
+    .out( s21 )
+  );
+  assign s23[0] = s20;
+  assign s23[1] = LOAD;
+  assign CNT[0] = s4;
+  assign CNT[1] = s5;
+  assign CNT[2] = s6;
+  assign CNT[3] = s7;
+  assign s16 = (s14 &amp; s12);
+  assign s20 = (s18 &amp; s16);
+  assign ZERO = (s22 &amp; s20);
+endmodule
+
+module downcounter (
+  input rst,
+  input count,
+  input load,
+  input [3:0] pm10,
+  input [3:0] pm1,
+  input [3:0] ps10,
+  input [3:0] ps1,
+  input c1khz,
+  output [3:0] s1,
+  output [3:0] s10,
+  output [3:0] m1,
+  output [3:0] m10,
+  output zero
+);
+  wire s0;
+  wire s2;
+  wire [3:0] s3;
+  wire s4;
+  wire s5;
+  wire s6;
+  wire s7;
+  wire [3:0] s8;
+  wire s9;
+  wire s11;
+  wire [3:0] s12;
+  wire s13;
+  wire [3:0] s14;
+  wire s15;
+  wire [3:0] s16;
+  wire [3:0] s17;
+  wire [3:0] s18;
+  wire [3:0] s19;
+  wire [3:0] s20;
+  wire [3:0] s21;
+  wire [3:0] s22;
+  wire [3:0] s23;
+  wire s24;
+  wire [3:0] s25;
+  wire [3:0] s26;
+  wire [3:0] s27;
+  wire [3:0] s28;
+  assign s16[0] = 1&apos;b1;
+  assign s16[1] = 1&apos;b0;
+  assign s16[2] = 1&apos;b0;
+  assign s16[3] = 1&apos;b1;
+  assign s20[0] = 1&apos;b1;
+  assign s20[1] = 1&apos;b0;
+  assign s20[2] = 1&apos;b0;
+  assign s20[3] = 1&apos;b1;
+  assign s18[0] = 1&apos;b1;
+  assign s18[1] = 1&apos;b0;
+  assign s18[2] = 1&apos;b1;
+  assign s18[3] = 1&apos;b0;
+  assign s22[0] = 1&apos;b1;
+  assign s22[1] = 1&apos;b0;
+  assign s22[2] = 1&apos;b0;
+  assign s22[3] = 1&apos;b1;
+  assign s26[0] = 1&apos;b0;
+  assign s26[1] = 1&apos;b0;
+  assign s26[2] = 1&apos;b0;
+  assign s26[3] = 1&apos;b0;
+  assign s25[0] = 1&apos;b0;
+  assign s25[1] = 1&apos;b0;
+  assign s25[2] = 1&apos;b0;
+  assign s25[3] = 1&apos;b0;
+  assign s27[0] = 1&apos;b0;
+  assign s27[1] = 1&apos;b0;
+  assign s27[2] = 1&apos;b0;
+  assign s27[3] = 1&apos;b0;
+  assign s28[0] = 1&apos;b0;
+  assign s28[1] = 1&apos;b0;
+  assign s28[2] = 1&apos;b0;
+  assign s28[3] = 1&apos;b0;
+  assign s24 = ~ rst;
+  assign s15 = (s24 | load);
+  Mux_2x1_NBits #(
+    .Bits(4)
+  )
+  Mux_2x1_NBits_i0 (
+    .sel( s24 ),
+    .in_0( pm1 ),
+    .in_1( s25 ),
+    .out( s17 )
+  );
+  Mux_2x1_NBits #(
+    .Bits(4)
+  )
+  Mux_2x1_NBits_i1 (
+    .sel( s24 ),
+    .in_0( pm10 ),
+    .in_1( s26 ),
+    .out( s23 )
+  );
+  Mux_2x1_NBits #(
+    .Bits(4)
+  )
+  Mux_2x1_NBits_i2 (
+    .sel( s24 ),
+    .in_0( ps10 ),
+    .in_1( s27 ),
+    .out( s19 )
+  );
+  Mux_2x1_NBits #(
+    .Bits(4)
+  )
+  Mux_2x1_NBits_i3 (
+    .sel( s24 ),
+    .in_0( ps1 ),
+    .in_1( s28 ),
+    .out( s21 )
+  );
+  Mux_2x1_NBits #(
+    .Bits(4)
+  )
+  Mux_2x1_NBits_i4 (
+    .sel( s15 ),
+    .in_0( s16 ),
+    .in_1( s17 ),
+    .out( s8 )
+  );
+  Mux_2x1_NBits #(
+    .Bits(4)
+  )
+  Mux_2x1_NBits_i5 (
+    .sel( s15 ),
+    .in_0( s18 ),
+    .in_1( s19 ),
+    .out( s12 )
+  );
+  Mux_2x1_NBits #(
+    .Bits(4)
+  )
+  Mux_2x1_NBits_i6 (
+    .sel( s15 ),
+    .in_0( s20 ),
+    .in_1( s21 ),
+    .out( s14 )
+  );
+  Mux_2x1_NBits #(
+    .Bits(4)
+  )
+  Mux_2x1_NBits_i7 (
+    .sel( s15 ),
+    .in_0( s22 ),
+    .in_1( s23 ),
+    .out( s3 )
+  );
+  assign s4 = ((s15 &amp; c1khz) | count);
+  downcounter_new downcounter_new_i8 (
+    .EN( s0 ),
+    .LOAD( s2 ),
+    .IN( s3 ),
+    .CLK( s4 ),
+    .RESET( 1&apos;b1 ),
+    .CNT( m10 ),
+    .ZERO( s5 )
+  );
+  downcounter_new downcounter_new_i9 (
+    .EN( s6 ),
+    .LOAD( s7 ),
+    .IN( s8 ),
+    .CLK( s4 ),
+    .RESET( 1&apos;b1 ),
+    .CNT( m1 ),
+    .ZERO( s0 )
+  );
+  downcounter_new downcounter_new_i10 (
+    .EN( s9 ),
+    .LOAD( s11 ),
+    .IN( s12 ),
+    .CLK( s4 ),
+    .RESET( 1&apos;b1 ),
+    .CNT( s10 ),
+    .ZERO( s6 )
+  );
+  downcounter_new downcounter_new_i11 (
+    .EN( 1&apos;b1 ),
+    .LOAD( s13 ),
+    .IN( s14 ),
+    .CLK( s4 ),
+    .RESET( 1&apos;b1 ),
+    .CNT( s1 ),
+    .ZERO( s9 )
+  );
+  assign s7 = (s0 | s15);
+  assign s11 = (s6 | s15);
+  assign s13 = (s9 | s15);
+  assign s2 = (s5 | s15);
+  assign zero = (s9 &amp; s5 &amp; s0 &amp; s6);
+endmodule</string>
+        </entry>
+      </elementAttributes>
+      <pos x="500" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Button</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>RST</string>
+        </entry>
+        <entry>
+          <string>activeLow</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>IVERILOG</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>counter</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>rst,clk,start</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>5</int>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>/*
+ * Generated by Digital. Don&apos;t modify this file!
+ * Any changes will be lost if this file is regenerated.
+ */
+
+module DIG_Counter_Nbit
+#(
+    parameter Bits = 2
+)
+(
+    output [(Bits-1):0] out,
+    output ovf,
+    input C,
+    input en,
+    input clr
+);
+    reg [(Bits-1):0] count;
+
+    always @ (posedge C) begin
+        if (clr)
+          count &lt;= &apos;h0;
+        else if (en)
+          count &lt;= count + 1&apos;b1;
+    end
+
+    assign out = count;
+    assign ovf = en? &amp;count : 1&apos;b0;
+
+    initial begin
+        count = &apos;h0;
+    end
+endmodule
+
+
+module counter (
+  input clk,
+  input start,
+  input rst,
+  output endd
+);
+  wire s0;
+  wire [9:0] s1;
+  wire endd_temp;
+  DIG_Counter_Nbit #(
+    .Bits(10)
+  )
+  DIG_Counter_Nbit_i0 (
+    .en( start ),
+    .C( clk ),
+    .clr( s0 ),
+    .out( s1 )
+  );
+  assign s0 = (~ rst | endd_temp);
+  assign endd_temp = ((~ s1[0] &amp; ~ s1[1] &amp; ~ s1[2] &amp; s1[3] &amp; ~ s1[4]) &amp; (s1[5] &amp; s1[6] &amp; s1[7] &amp; s1[8] &amp; s1[9]));
+  assign endd = endd_temp;
+endmodule</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>endd</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1140" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>IVERILOG</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>controller</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>clk,rst,beginn,reset,zero,endd</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>9</int>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>/*
+ * Generated by Digital. Don&apos;t modify this file!
+ * Any changes will be lost if this file is regenerated.
+ */
+module DIG_JK_FF
+#(
+    parameter Default = 1&apos;b0
+)
+(
+   input J,
+   input C,
+   input K,
+   output Q,
+   output \~Q
+);
+    reg state;
+
+    assign Q = state;
+    assign \~Q = ~state;
+
+    always @ (posedge C) begin
+        if (~J &amp; K)
+            state &lt;= 1&apos;b0;
+         else if (J &amp; ~K)
+            state &lt;= 1&apos;b1;
+         else if (J &amp; K)
+            state &lt;= ~state;
+    end
+
+    initial begin
+        state = Default;
+    end
+endmodule
+
+
+module controller (
+  input clk,
+  input rst,
+  input beginn,
+  input reset,
+  input zero,
+  input endd,
+  output start,
+  output load,
+  output countdown
+);
+  wire s0;
+  assign s0 = (~ rst | reset | (zero ^ reset));
+  DIG_JK_FF #(
+    .Default(0)
+  )
+  DIG_JK_FF_i0 (
+    .J( beginn ),
+    .C( clk ),
+    .K( s0 ),
+    .Q( start )
+  );
+  assign load = reset;
+  assign countdown = endd;
+endmodule</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>load,start,countdown</string>
+        </entry>
+      </elementAttributes>
+      <pos x="840" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>1 kHz</string>
+        </entry>
+        <entry>
+          <string>Frequency</string>
+          <int>1000</int>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Button</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>START</string>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Button</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>PRESET</string>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1,1,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="480" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1,1,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1,1,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1,1,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="760"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="820" y="480"/>
+      <p2 x="840" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="480"/>
+      <p2 x="640" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="480"/>
+      <p2 x="420" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="480"/>
+      <p2 x="1260" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="480"/>
+      <p2 x="1140" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="480"/>
+      <p2 x="1060" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="480"/>
+      <p2 x="500" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="320"/>
+      <p2 x="680" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="320"/>
+      <p2 x="940" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="580"/>
+      <p2 x="500" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="580"/>
+      <p2 x="840" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="420"/>
+      <p2 x="1060" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="520"/>
+      <p2 x="840" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="520"/>
+      <p2 x="680" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="520"/>
+      <p2 x="440" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="520"/>
+      <p2 x="500" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="520"/>
+      <p2 x="1040" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="360"/>
+      <p2 x="640" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="680"/>
+      <p2 x="680" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="460"/>
+      <p2 x="1140" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="620"/>
+      <p2 x="500" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="620"/>
+      <p2 x="1260" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="400"/>
+      <p2 x="820" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="400"/>
+      <p2 x="1100" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="560"/>
+      <p2 x="840" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="560"/>
+      <p2 x="500" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="240"/>
+      <p2 x="960" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="720"/>
+      <p2 x="480" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="500"/>
+      <p2 x="840" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="500"/>
+      <p2 x="1140" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="500"/>
+      <p2 x="660" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="500"/>
+      <p2 x="500" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="340"/>
+      <p2 x="660" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="340"/>
+      <p2 x="960" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="660"/>
+      <p2 x="780" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="280"/>
+      <p2 x="940" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="280"/>
+      <p2 x="580" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="600"/>
+      <p2 x="500" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="440"/>
+      <p2 x="1040" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="700"/>
+      <p2 x="580" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="540"/>
+      <p2 x="840" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="540"/>
+      <p2 x="700" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="540"/>
+      <p2 x="500" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="380"/>
+      <p2 x="800" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="380"/>
+      <p2 x="1120" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="240"/>
+      <p2 x="640" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="360"/>
+      <p2 x="640" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="760"/>
+      <p2 x="640" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="240"/>
+      <p2 x="960" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="260"/>
+      <p2 x="580" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="760"/>
+      <p2 x="580" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="700"/>
+      <p2 x="580" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="760"/>
+      <p2 x="520" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="600"/>
+      <p2 x="460" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="240"/>
+      <p2 x="460" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="760"/>
+      <p2 x="460" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="420"/>
+      <p2 x="460" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="760"/>
+      <p2 x="780" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="340"/>
+      <p2 x="780" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="660"/>
+      <p2 x="780" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="400"/>
+      <p2 x="1100" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="240"/>
+      <p2 x="720" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="760"/>
+      <p2 x="720" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="440"/>
+      <p2 x="1040" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="340"/>
+      <p2 x="660" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="760"/>
+      <p2 x="660" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="240"/>
+      <p2 x="540" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="760"/>
+      <p2 x="540" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="620"/>
+      <p2 x="480" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="240"/>
+      <p2 x="480" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="760"/>
+      <p2 x="480" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="440"/>
+      <p2 x="480" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="720"/>
+      <p2 x="480" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="380"/>
+      <p2 x="1120" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="380"/>
+      <p2 x="800" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="580"/>
+      <p2 x="800" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="560"/>
+      <p2 x="420" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="760"/>
+      <p2 x="420" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="380"/>
+      <p2 x="420" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="760"/>
+      <p2 x="740" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="420"/>
+      <p2 x="1060" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="320"/>
+      <p2 x="680" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="760"/>
+      <p2 x="680" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="680"/>
+      <p2 x="680" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="240"/>
+      <p2 x="620" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="760"/>
+      <p2 x="620" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="280"/>
+      <p2 x="940" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1260" y="480"/>
+      <p2 x="1260" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="240"/>
+      <p2 x="560" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="760"/>
+      <p2 x="560" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="400"/>
+      <p2 x="820" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="320"/>
+      <p2 x="760" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="760"/>
+      <p2 x="760" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="580"/>
+      <p2 x="440" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="760"/>
+      <p2 x="440" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="400"/>
+      <p2 x="440" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="500"/>
+      <p2 x="440" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="240"/>
+      <p2 x="700" y="540"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
